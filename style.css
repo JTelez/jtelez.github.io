@@ -1,3 +1,92 @@
-h1 {
-    color: blue;
+html {
+    background-color: #121212;
+}
+
+body{
+    background-color: #6666FF;
+    border-radius: 15px;
+}
+
+.title {
+    text-align: center;
+    color: rgb(240,240,240);
+    font-family: Roboto;
+    font-size: 75px;
+    margin-bottom: 0.1px;
+    letter-spacing: 2px;
+    font-weight: bolder;
+}
+
+.subtitle {
+    text-align: center;
+    color: rgb(240,240,240);
+    font-family: Roboto;
+    font-size: 15px;
+    line-height: 2em;
+    margin-top: -5px;
+}
+
+.projects-image {
+    height: auto;
+    width: 450px;
+    margin-left: 150px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    box-shadow: 10px 5px 5px black;
+}
+
+.resume-image {
+    height: auto;
+    width: 450px;
+    float: right;
+    margin-right: 150px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    box-shadow: 10px 5px 5px black;
+}
+
+nav li {
+    display: inline-block;
+    line-height: 50px;
+    width: 400px;
+    text-align: center;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    font-family: Roboto;
+    font-size: 150%;
+    font-weight: bolder;
+}
+
+nav ul li a:hover {
+    background-color: white;
+    color: #121212;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+nav {
+    background-color: #6633FF;
+}
+
+.contact-about {
+    display: table;
+}
+
+.contact-heading {
+    font-size: 150%;
+    font-family: Roboto;
+    font-weight: bolder;
+    color: white;
+
+}
+
+.about-heading {
+    font-size: 150%;
+    font-family: Roboto;
+    font-weight: bolder;
+    color: white;
 }
