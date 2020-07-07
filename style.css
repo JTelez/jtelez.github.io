@@ -29,7 +29,7 @@ body{
 .projects-image {
     height: auto;
     width: 450px;
-    margin-left: 150px;
+    margin-left: 10%;
     margin-bottom: 30px;
     border-radius: 15px;
     box-shadow: 10px 5px 5px black;
@@ -39,7 +39,7 @@ body{
     height: auto;
     width: 450px;
     float: right;
-    margin-right: 150px;
+    margin-right: 10%;
     margin-bottom: 30px;
     border-radius: 15px;
     box-shadow: 10px 5px 5px black;
@@ -48,7 +48,7 @@ body{
 nav li {
     display: inline-block;
     line-height: 50px;
-    width: 400px;
+    width: 33%;
     text-align: center;
 }
 
