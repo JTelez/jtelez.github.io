@@ -4,7 +4,7 @@ html {
 
 body{
     background-color: #333;
-    border-radius: 15px;
+    border-radius: 50px;
 }
 
 .title {
@@ -30,7 +30,7 @@ body{
 .projects-image {
     height: auto;
     width: 450px;
-    margin-left: 10%;
+    margin-left: 15%;
     margin-bottom: 30px;
     border-radius: 15px;
     box-shadow: 10px 5px 5px black;
@@ -40,7 +40,7 @@ body{
     height: auto;
     width: 450px;
     float: right;
-    margin-right: 10%;
+    margin-right: 15%;
     margin-bottom: 30px;
     border-radius: 15px;
     box-shadow: 10px 5px 5px black;
@@ -74,10 +74,6 @@ nav {
     margin-bottom: 3%;
 }
 
-.contact-about {
-    display: table;
-}
-
 .contact-heading {
     font-size: 150%;
     font-family: Roboto;
@@ -91,4 +87,14 @@ nav {
     font-family: Roboto;
     font-weight: bolder;
     color: white;
+}
+
+.contact-about {
+    column-count: 2;
+    column-gap: 1em;
+}
+
+.home-images {
+    column-count: 2;
+    column-gap: 0.2em;
 }
