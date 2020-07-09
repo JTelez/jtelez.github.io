@@ -48,7 +48,7 @@ body {
     width: 4vh;
     transform: translateY(-1100%);
     filter: brightness(0);
-    animation: fadeIn 2s;
+    animation: fadeIn 3s;
 }
 
 #projects-page {
