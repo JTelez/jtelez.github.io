@@ -4,36 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css" >
+    <link href="style.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
 </head>
 <body>
-    <div class="header">
-        <h1 class="title">Portfolio</h1>
-        <p class="subtitle">Portfolio of Jeremy T // California-based developer</p>
-    </div>
+    <section id="landing-page">
+        <h1 class="landing-title">Jeremy T // Front End Developer</h1>
+        <img id="git-icon" src="assets\github.png">
+        <p class="next-section"><a href="#projects-page">View Projects &dArr;</a></p>
+    </section>
 
-    <nav>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Resume</a></li>
-        </ul>
-    </nav>
+    <section id="projects-page">
+        <p class="prev-section"><a href="#landing-page">View Landing Page &uArr;</a></p>
+        <h1 class="projects-title">Projects</h1>
+        <p class="next-section"><a href="#contact-page">View Contact Information &dArr;</a></p>
+    </section>
 
-    <div>
-        <section class="home-images">
-            <img class= "projects-image" src="assets\projects.jpg" alt="Image failed to load">
-            <img class= "resume-image" src="assets\resume.jpg" alt="Image failed to load">
-        </section>
-    </div>
-<!--
-    <div>
-        <section class="contact-about">
-            <p class="contact-heading">Contact Information</p>
-            <p class="about-heading">About Me</p>
-        </section>
-    </div>
--->
+    <section id="contact-page">
+        <p class="prev-section"><a href="#projects-page">View Projects &uArr;</a></p>
+        <h1 class="contact-title">Contact Information</h1>
+    </section>
 </body>
 </html>
