@@ -81,7 +81,7 @@ body {
 }
 
 .links a:hover::after {
-    width: 40%;
+    width: 37%;
     transition: width .3s;
 }
 
