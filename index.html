@@ -10,19 +10,61 @@
 <body>
     <section id="landing-page">
         <h1 class="landing-title">Jeremy T // Front End Developer</h1>
-        <img id="git-icon" src="assets\github.png">
-        <p class="next-section"><a href="#projects-page">View Projects &dArr;</a></p>
+        <a class="icon-hoverable" href="https://github.com/JTelez" target="_blank"><img id="git-icon" src="assets\github.png"></a>
+        <p class="next-section"><a class="nav-link" href="#projects-page">View Projects</a></p>
     </section>
 
     <section id="projects-page">
-        <p class="prev-section"><a href="#landing-page">View Landing Page &uArr;</a></p>
         <h1 class="projects-title">Projects</h1>
-        <p class="next-section"><a href="#contact-page">View Contact Information &dArr;</a></p>
+        <div class="projects">
+            <div class="project" id="card">
+                <h1>Searchable To-Do</h1>
+                <p class="desc">
+                    Built with HTML, CSS and JavaScript; used Materialize CSS library
+                </p>
+                <p class="links">
+                    <a href="https://jtelez.github.io/searchable-todo">View Page</a>
+                    <a href="https://github.com/JTelez/searchable-todo">View Code</a>
+                </p>
+            </div>
+            <div class="project" id="card">
+                <h1>COVID-19 Tracker</h1>
+                <p class="desc">
+                    Built with HTML, CSS and JavaScript; implemented disease.sh API with fetch()
+                </p>
+                <p class="links">
+                    <a href="https://jtelez.github.io/covid19-tracker">View Page</a>
+                    <a href="https://github.com/JTelez/covid19-tracker">View Code</a>
+                </p>
+            </div>
+            <div class="project" id="card">
+                <h1>Typing Game</h1>
+                <p class="desc">
+                    Built with HTML, CSS and JavaScript; used Bootstrap CSS library
+                </p>
+                <p class="links">
+                    <a href="https://jtelez.github.io/typing-game">View Page</a>
+                    <a href="https://github.com/JTelez/typing-game">View Code</a>
+                </p>
+            </div>
+            <div class="project" id="card">
+                <h1>Abe Lincoln Tribute</h1>
+                <p class="desc">
+                    Built with HTML and CSS
+                </p>
+                <p class="links">
+                    <a href="https://jtelez.github.io/lincoln-tribute">View Page</a>
+                    <a href="https://github.com/JTelez/lincoln-tribute">View Code</a>
+                </p>
+            </div>
+        </div>
+        
+        <p class="next-section"><a class="nav-link" href="#contact-page">View Contact Information</a></p>
     </section>
 
     <section id="contact-page">
-        <p class="prev-section"><a href="#projects-page">View Projects &uArr;</a></p>
-        <h1 class="contact-title">Contact Information</h1>
+        <p class="prev-section"><a class="nav-link" href="#projects-page">View Projects</a></p>
+        <h1 class="contact-title"><a class="contact-link" href="mailto: jtadmiss@gmail.com">Click to Contact Me</a></h1>
     </section>
 </body>
 </html>
